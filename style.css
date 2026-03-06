@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.profile-photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    max-width: 200px;
+    border: 1px solid #ccc;
+}
+
+.profile-info h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.phone {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+}
+.service-item {
+    display: flex;          /* Выстраиваем логотип и текст в ряд */
+    align-items: flex-start; /* Выравниваем по верхнему краю */
+    margin-bottom: 5px;      /* Отступ снизу, как у обычных параграфов */
+    gap: 10px;               /* Расстояние между логотипом и текстом */
+}
+
+.service-logo {
+    width: 30px;             /* Фиксированная ширина для маленького лого */
+    height: auto;            /* Высота подстроится пропорционально */
+    flex-shrink: 0;          /* Запрещаем логотипу сжиматься */
+    margin-top: 2px;         /* Небольшой отступ сверху для выравнивания с первой строкой текста */
+}
+
+.service-text p {
+    margin: 0;               /* Убираем стандартные отступы у параграфов внутри */
+}
